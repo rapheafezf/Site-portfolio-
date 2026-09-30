@@ -6,7 +6,7 @@
 
   /* ---- Réglages à personnaliser ---- */
   // Adresse affichée en secours si l'envoi du formulaire échoue.
-  var CONTACT_EMAIL = 'contact@votre-domaine.fr'; // À REMPLACER
+  var CONTACT_EMAIL = 'bourguetraphae57@gmail.com';
   // Laisser vide pour Netlify Forms. Pour Formspree : 'https://formspree.io/f/VOTRE_ID'
   var FORM_ENDPOINT = '';
   // Délai minimum (ms) entre l'affichage et l'envoi : un humain met plus de 3 s à écrire.

@@ -17,7 +17,6 @@ Le formulaire ne s'envoie pas réellement en local (Netlify Forms ne fonctionne 
 | Élément | Où |
 |---|---|
 | Domaine `https://votre-domaine.fr/` | `index.html` (canonical, hreflang, OG, JSON-LD), `en/index.html`, `robots.txt`, `sitemap.xml`, `netlify.toml` |
-| E-mail `contact@votre-domaine.fr` | `index.html` (section Contact) et `CONTACT_EMAIL` dans `js/main.js` |
 | Liens (LinkedIn, etc.) | Section Contact : ajouter un `<li><a class="social" href="…">` à côté de GitHub |
 | Photo | Section À propos : remplacer le bloc « Photo à fournir » par un `<img>` (≈ 800×1000, JPG/WebP, avec `alt`) |
 | Logo | Pastille « R » dans le header, `favicon.svg`, `assets/img/apple-touch-icon.png` |
