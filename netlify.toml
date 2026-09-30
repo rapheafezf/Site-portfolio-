@@ -1,0 +1,16 @@
+# Site statique : aucune étape de build
+[build]
+  publish = "."
+
+# Forcer HTTPS et le domaine principal (à adapter)
+[[redirects]]
+  from = "http://votre-domaine.fr/*"
+  to = "https://votre-domaine.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.votre-domaine.fr/*"
+  to = "https://votre-domaine.fr/:splat"
+  status = 301
+  force = true
