@@ -190,7 +190,7 @@ code { font-size: .9em; background: var(--bg-alt); padding: .1em .35em; border-r
 /* Grilles */
 .grid { display: grid; gap: 1.5rem; }
 @media (min-width: 640px) { .grid--projects, .grid--sites, .grid--services { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .grid--projects, .grid--sites { grid-template-columns: repeat(3, 1fr); } .grid--services { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1000px) { .grid--projects, .grid--sites { grid-template-columns: repeat(3, 1fr); } .grid--services { grid-template-columns: repeat(3, 1fr); } }
 
 /* Cartes */
 .card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: transform .3s ease, box-shadow .3s ease; }
@@ -288,3 +288,5 @@ code { font-size: .9em; background: var(--bg-alt); padding: .1em .35em; border-r
 }
 
 p.todo { width: fit-content; }
+@media (min-width: 640px) { .grid--services { display: flex; flex-wrap: wrap; justify-content: center; } .grid--services > li { flex: 0 1 calc((100% - 1.5rem) / 2); } }
+@media (min-width: 1000px) { .grid--services > li { flex-basis: calc((100% - 3rem) / 3); } }
