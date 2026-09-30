@@ -22,7 +22,7 @@ Le formulaire ne s'envoie pas réellement en local (Netlify Forms ne fonctionne 
 | Photo | Section À propos : remplacer le bloc « Photo à fournir » par un `<img>` (≈ 800×1000, JPG/WebP, avec `alt`) |
 | Logo | Pastille « R » dans le header, `favicon.svg`, `assets/img/apple-touch-icon.png` |
 | Parcours | Paragraphe `todo-block` de la section À propos |
-| Jeux Roblox | Section `#roblox` : nom, description, image, lien, puis retirer le badge `todo` |
+| Sites internet | Section `#sites` : nom, description, capture, lien « Voir le site », puis retirer le badge `todo` |
 | Mentions légales | `mentions-legales.html` (éditeur, hébergeur, données) |
 | Image de partage | `assets/img/og-image.jpg` (1200×630) si besoin |
 

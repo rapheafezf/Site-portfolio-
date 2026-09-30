@@ -189,8 +189,8 @@ code { font-size: .9em; background: var(--bg-alt); padding: .1em .35em; border-r
 
 /* Grilles */
 .grid { display: grid; gap: 1.5rem; }
-@media (min-width: 640px) { .grid--projects, .grid--games, .grid--services { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .grid--projects, .grid--games { grid-template-columns: repeat(3, 1fr); } .grid--services { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 640px) { .grid--projects, .grid--sites, .grid--services { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .grid--projects, .grid--sites { grid-template-columns: repeat(3, 1fr); } .grid--services { grid-template-columns: repeat(4, 1fr); } }
 
 /* Cartes */
 .card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: transform .3s ease, box-shadow .3s ease; }
@@ -210,9 +210,9 @@ code { font-size: .9em; background: var(--bg-alt); padding: .1em .35em; border-r
 .tags li { font-size: .8rem; font-weight: 600; padding: .2em .6em; border-radius: 6px; background: var(--bg-alt); color: var(--text); }
 .card--empty { border-style: dashed; box-shadow: none; background: transparent; justify-content: center; min-height: 220px; }
 .card--empty:hover { transform: none; }
-.card__media--game { display: grid; place-items: center; background: linear-gradient(135deg, var(--primary), color-mix(in srgb, var(--primary) 50%, var(--accent))); }
-.card__media--game svg { width: 55%; height: auto; }
-.card__media--game rect { fill: none; stroke: #fff; stroke-width: 3; opacity: .85; }
+.card__media--site { display: grid; place-items: center; background: linear-gradient(135deg, var(--primary), color-mix(in srgb, var(--primary) 50%, var(--accent))); }
+.card__media--site svg { width: 55%; height: auto; }
+.card__media--site :is(rect, path, circle) { fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; opacity: .85; }
 
 /* Services */
 .service { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; }
